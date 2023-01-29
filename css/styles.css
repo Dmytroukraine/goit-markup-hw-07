@@ -26,7 +26,24 @@ ul {list-style-type: none;
 .conteiner {width: 1158px;
             margin: 0 auto;
             padding-left: 15px;
-            padding-right: 15px;}
+            padding-right: 15px;
+            
+            /* margin-left: auto;
+            margin-right: auto;  
+
+      @media screen and (min-width: 428px)
+              {width: 428px;
+              background-color: tomato;}
+              
+              @media screen and (min-width: 768px)
+                     {width: 768px;}
+
+                     @media screen and (min-width: 1440px)
+                           {width: 1440px;}
+
+                            @media screen and (min-width: 2048px)
+                            {width: 2048px;} */ }    
+       
 /* body */
 
 body {color:var(--primary-text-color);
