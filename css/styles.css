@@ -31,10 +31,7 @@ ul {list-style-type: none;
             margin-left: auto;
             margin-right: auto;} 
 
-
-
-      
-
+            
 /* body */
 
 body {color:var(--primary-text-color);
@@ -52,21 +49,7 @@ body {color:var(--primary-text-color);
       box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
       justify-content: center;}
 
-      @media (min-width: 428px)
-      {body {background-color: tomato;}}
-       
-       
-       @media (min-width: 768px)
-       {body {background-color: teal;}}
-
-              @media (min-width: 1440px)
-              {body {background-color: black;}}
-
-                     @media  (min-width: 2048px)
-                     {body {background-color:yellow;}}
-
-
-/* header */
+     /* header */
  
 .header-main {background: var(--second-text-color);
               box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
