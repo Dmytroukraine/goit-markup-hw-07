@@ -23,18 +23,36 @@ ul {list-style-type: none;
 
 /* conteiner */
 
-.conteiner {width: 1158px;
+/* .conteiner {width: 1158px;
             margin: 0 auto;
             padding-left: 15px;
             padding-right: 15px;
 
             margin-left: auto;
-            margin-right: auto;} 
+            margin-right: auto;}  */
 
-            
+           
+.conteiner {margin: 0 auto;
+            padding-left: 15px;
+            padding-right: 15px;}
+
+@media screen and (min-width:428px) {
+       .conteiner {width: 428px;
+                   margin-left: auto;
+                   margin-right: auto;}
+}            
+
+@media screen and (min-width:768px) {
+       .conteiner {width: 768px;}
+}            
+
+@media screen and (min-width:1200px) {
+       .conteiner {width: 1158px;}
+}            
+
 /* body */
 
-body {color:var(--primary-text-color);
+/* body {color:var(--primary-text-color);
       background-color:var(--second-text-color);
       font-family: 'Roboto', sans-serif; 
       font-style: normal;
@@ -47,15 +65,15 @@ body {color:var(--primary-text-color);
       width: 1440px;
 
       box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-      justify-content: center;}
+      justify-content: center;} */
 
      /* header */
  
-.header-main {background: var(--second-text-color);
+ /* .header-main {background: var(--second-text-color);
               box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 1px 6px rgba(46, 47, 66, 0.08);
-              filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+              filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));} */
 
 .web {align-items: center;
       letter-spacing: 0.03em;
@@ -72,9 +90,9 @@ body {color:var(--primary-text-color);
         text-decoration: none;
         color: var(--title-text-color);
         padding-top: 24px;
-        padding-bottom: 24px;}
+        padding-bottom: 24px;} 
 
-.main-nav {display: flex;}
+/*.main-nav {display: flex;}
 
 .nav {display: flex;
       margin-right: 275px;}
@@ -144,7 +162,7 @@ body {color:var(--primary-text-color);
 
 .mail .address:hover  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  
 
-.mail .address:focus  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}   
+.mail .address:focus  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}    */
 
 /* block hero */
 
