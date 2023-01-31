@@ -77,7 +77,16 @@ ul {list-style-type: none;
               top: 0;
               left: 0;
               z-index: 100;
-              background-color: var(--second-text-color);}
+              background-color: var(--second-text-color);
+              opacity: 0;
+              visibility: hidden;
+              pointer-events: none;
+              transition: opacity 500ms linear, visibility 500ms linear;} 
+
+
+.mobile-menu.is-open {opacity: 1;
+                      visibility: visible;
+                      pointer-events: auto;}         
 
 .mobile-menu_conteiner{position: relative;
                        padding-top: 80px;}              
@@ -171,6 +180,8 @@ ul {list-style-type: none;
 
 .mobile-item {padding-bottom: 40px;
               padding-left: 40px;}
+
+.mobile-items {padding-top: 80px;}              
 
 .mobile-mail {padding-top: 244px;}      
 
