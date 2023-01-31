@@ -79,7 +79,8 @@ ul {list-style-type: none;
               z-index: 100;
               background-color: var(--second-text-color);}
 
-.mobile-menu_conteiner{position: relative;}              
+.mobile-menu_conteiner{position: relative;
+                       padding-top: 80px;}              
 
 .mobile-close-win{position: absolute;
                   top: 40px;
@@ -168,12 +169,10 @@ ul {list-style-type: none;
 .mobile-address-tel:focus {color:var(--primary-text-color); 
                            transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
-.mobile-item {margin: 40px 40px;}
+.mobile-item {padding-bottom: 40px;
+              padding-left: 40px;}
 
-.mobile-items {margin-top: 80px;}
-
-.mobile-mail {margin-top: 284px;
-              margin-bottom: 48px;}      
+.mobile-mail {padding-top: 244px;}      
 
 .mobile-list-icons {display:inline-flex;
                     margin-left: 40px;
