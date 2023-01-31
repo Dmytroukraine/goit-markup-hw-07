@@ -50,6 +50,30 @@ ul {list-style-type: none;
        .conteiner {width: 1158px;}
 }            
 
+@media screen and (max-width:768px){
+       .site, .mail {display: none;}
+       
+}
+
+@media screen and (min-width:768px) {
+       .mobile-menu-open{display: none;}
+}
+
+.mobile-menu-open_icon {stroke:#2E2F42;
+                     background-color: #FFFFFF;}
+.mobile-menu-open {background-color: #FFFFFF;
+                   border: none;
+                     padding: 0;}
+
+.conteiner.main-nav {display: inline-flex;
+                     height: 70px;
+                     justify-items: center;
+                     align-items: center;}
+
+.logo {margin-right: 249px;}
+
+
+
 /* body */
 
 /* body {color:var(--primary-text-color);
