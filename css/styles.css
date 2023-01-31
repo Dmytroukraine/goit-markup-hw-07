@@ -55,9 +55,6 @@ ul {list-style-type: none;
        
 }
 
-@media screen and (min-width:768px) {
-       .mobile-menu-open{display: none;}
-}
 
 .mobile-menu-open_icon {stroke:var(--title-text-color);}
 
@@ -90,6 +87,10 @@ ul {list-style-type: none;
 
 .mobile-menu_conteiner{position: relative;
                        padding-top: 80px;}              
+
+@media screen and (min-width:768px) {
+              .mobile-menu {display: none;}
+}
 
 .mobile-close-win{position: absolute;
                   top: 40px;
@@ -187,7 +188,8 @@ ul {list-style-type: none;
 
 .mobile-list-icons {display:inline-flex;
                     margin-left: 40px;
-                    gap: 56px;}              
+                    gap: 56px;}   
+
 
 
 
