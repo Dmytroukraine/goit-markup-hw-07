@@ -37,24 +37,19 @@
         <li class="item"><a href="tel:+110001111111" class="address"> +11 (000) 111-11-11</a> </li>
       </ul>
 
-      <button type="button" class="mobile-menu-open"> <svg class="mobile-menu-open_icon" width="32" height="22" >
+      <button data-menu-open type="button" class="mobile-menu-open" > <svg class="mobile-menu-open_icon" width="32" height="22" >
         <use href="./images/icons.svg#icon-menu-hamburger-1"></use>
       </svg> </button>
 
       </div>
 
-      <div class="mobile-menu">
+      <div data-menu class="mobile-menu" >
 
-        <div class="conteiner mobile-menu_conteiner">
-
-        <button data-modal-close class="mobile-close-win" type="button">
+        <button data-menu-close class="mobile-close-win" type="button" >
           <svg class="mobile-cross" width="24" height="24">
            <use href="./images/icons.svg#icon-close"></use>
-          </svg>
-        </button>
+          </svg></button>
 
-        </div>
-        
           <ul class="mobile-items">
             <li class="mobile-item"><a href="./index.html" class="mobile-link">Studio</a></li>
   
@@ -105,10 +100,10 @@
             </li>
 
           </ul>
-        
       </div>
 
     </header>
+
  
      <!-- block hero -->
 
@@ -393,6 +388,8 @@
  
     </footer>
      -->
+
+     <script src="./js/mobile-menu1.js"></script>
     <!-- <script src="./js/modal.js"></script> -->
   </body>
 </html>
