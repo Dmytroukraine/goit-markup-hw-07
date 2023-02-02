@@ -10,12 +10,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
-      crossorigin="anonymous"
-    />
   </head>
   <body class="body">
 
@@ -42,10 +36,7 @@
         <li class="item"><a href="tel:+110001111111" class="address"> +11 (000) 111-11-11</a></li>
       </ul>
 
-      <button 
-      class="menu-toggle js-open-menu"
-      aria-expanded="false"
-      aria-controls="mobile-menu" > <svg class="mobile-menu-open_icon" width="32" height="22" >
+      <button data-menu-open type="button" class="mobile-menu-open" > <svg class="mobile-menu-open_icon" width="32" height="22" >
         <use href="./images/icons.svg#icon-menu-hamburger-1"></use>
       </svg> </button>
 
@@ -563,76 +554,13 @@
  
     </footer> -->
     
-    <div class="menu-container js-menu-container" id="mobile-menu" >
 
-      <button class="menu-toggle js-close-menu" >
-        <svg class="mobile-cross" width="24" height="24">
-         <use href="./images/icons.svg#icon-close"></use>
-        </svg></button>
-
-        <ul class="mobile-items">
-          <li class="mobile-item"><a href="./index.html" class="mobile-link">Studio</a></li>
-
-          <li class="mobile-item"><a href="./portfolio.html" class="mobile-link">Portfolio</a></li>
-
-          <li class="mobile-item"><a href="" class="mobile-link active">Contacts</a></li>
-        </ul>
-        <ul class="mobile-mail">
-
-          <li class="mobile-item "><a href="tel:+110001111111" class="mobile-address-tel"> +11 (000) 111-11-11</a> </li>
-
-          <li class="mobile-item"><a href="mailto:info@devstudio.com" class="mobile-address-mail"> info@devstudio.com</a> </li>
-              
-        </ul>
-        <ul class="mobile-list-icons">
-
-          <li class="mobile-social-icons">
-            <a href="https://twitter.com/?lang=ru" class="test">
-              <svg class="ic-tes" width="16" height="16">
-                <use href="./images/icons.svg#icon-instagram"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="mobile-social-icons"> 
-            <a href="https://twitter.com/?lang=ru" class="test">
-              <svg class="ic-tes" width="16" height="16">
-                <use href="./images/icons.svg#icon-twitter"></use>
-              </svg>
-            </a>
-          </li>
-        
-          <li class="mobile-social-icons"> 
-           
-            <a href="https://twitter.com/?lang=ru" class="test">
-              <svg class="ic-tes" width="16" height="16">
-                <use href="./images/icons.svg#icon-facebook"></use>
-              </svg>
-            </a>
-          </li>
-
-          <li class="mobile-social-icons"> 
-            <a href="https://twitter.com/?lang=ru" class="test">
-              <svg class="ic-tes" width="16" height="16">
-                <use href="./images/icons.svg#icon-linkedin"></use>
-              </svg>
-            </a>
-          </li>
-
-        </ul>
-    </div>
-
-   <!-- <script src="./js/mobile-menu1.js"></script> -->
+    
+   <script src="./js/mobile-menu1.js"></script>
 
     <!-- <script src="./js/modal.js"></script> -->
 
-    <script
-    defer
-    src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-    crossorigin="anonymous"
-  ></script>
-  <script defer src="js/mobile-menu.js"></script>
+    
 
   </body>
 
