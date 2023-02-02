@@ -40,7 +40,7 @@ ul {list-style-type: none;
 /* Header mobile!!! */
 
 
-.header-main {position: fixed;}
+
 .mobile-menu-open_icon {stroke:var(--title-text-color);}
 
 .conteiner.main-nav {display: inline-flex;
@@ -298,18 +298,9 @@ body {display: flex;
 
 @media screen and (min-width:1440px) {
 
-body {display: flex;
-      width: 1440px;
-      color:var(--primary-text-color);
-      background-color:var(--second-text-color);
-      font-family: 'Roboto', sans-serif; 
-      font-style: normal;
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 1.5;
-      margin: auto;
+body {width: 1440px;
       position: relative;
-      box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+      align-content: center;
       justify-content: center;}
 
 .conteiner {width: 1158px;
@@ -322,12 +313,7 @@ body {display: flex;
 .header-main {display: flex;
               width: 1440px;
               align-items: center;
-              justify-items: center;
-              background: var(--second-text-color);
-              box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-              0px 1px 1px rgba(46, 47, 66, 0.16),
-              0px 1px 6px rgba(46, 47, 66, 0.08);
-              filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+              justify-items: center;}
               
 .main-nav {display: flex;}
 
