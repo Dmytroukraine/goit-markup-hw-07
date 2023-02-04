@@ -1,4 +1,4 @@
-/* root */
+/*------------------------------- root -------------------------------*/
 
 :root {
     --primary-text-color:#434455;
@@ -39,13 +39,20 @@ ul {list-style-type: none;
 
 @media screen and (max-width:768px){
        .site, .mail {display: none;}
+       .description-link {display: none;}
        
 }
 
-/* Header mobile!!! */
+/*------------------------------- Header mobile!!! -------------------------------*/
 
 
-.header-main {position: sticky;}
+.header-main {position: sticky;
+       top: 0;
+       z-index: 3;
+       background-color: var(--second-text-color);
+       box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+       0px 1px 1px rgba(46, 47, 66, 0.16),
+       0px 1px 6px rgba(46, 47, 66, 0.08);}
 .mobile-menu-open_icon {stroke:var(--title-text-color);}
 
 .conteiner.main-nav {display: inline-flex;
@@ -100,7 +107,6 @@ ul {list-style-type: none;
               .mobile-menu {display: none;}
               .mobile-menu-open {display: none;}
 }
-
 
 .mobile-close-win{position: absolute;
                   top: 40px;
@@ -202,9 +208,9 @@ ul {list-style-type: none;
 
 
 
-                    /* Hero block */
+/*------------------------------- Hero block------------------------------- */
 
-                    .header-title {
+                    .hero-title {
                      text-align: center; 
                     
                      max-width: 428px;
@@ -233,7 +239,33 @@ ul {list-style-type: none;
                             color: #FFFFFF;} 
 
 
-/* Tablet header!!! */
+/*------------------------------- Description -------------------------------*/
+
+.description-header {font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 36px;
+       line-height: 1.1;
+              text-align: center;
+       letter-spacing: 0.02em;
+       
+       color: #2E2F42;
+margin-bottom: 8px;}
+
+.description-text {font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 16px;
+       line-height: 1.5;
+              letter-spacing: 0.02em;
+       
+       color: #434455;
+margin-bottom: 72px;}       
+
+       .description-ul {padding-top: 96px;}
+
+
+/* -------------------------------Tablet header!!!------------------------------- */
 
 
 @media screen and (min-width:768px) {
@@ -329,7 +361,7 @@ body {display: flex;
 } 
 
 
-/* Desktop header */
+/* -------------------------------Desktop header------------------------------- */
 
 @media screen and (min-width:1440px) {
 
@@ -440,9 +472,9 @@ body {display: flex;
 
 
 
-/* block hero */
+/* -------------------------------block hero------------------------------- */
 
-/* .header-title {background:var(--primary-text-color);
+/* .hero-title {background:var(--primary-text-color);
                text-align: center; 
                padding-top: 192px;
                padding-bottom: 192px;
@@ -466,7 +498,7 @@ body {display: flex;
               width: 500px;}     */
 
 
-/* backdrop */
+/*------------------------------- backdrop -------------------------------*/
 
 
 .backdrop {position: fixed;
@@ -523,9 +555,6 @@ body {display: flex;
 
 .backdrop.is-hidden .window {transform: translate(-50%, -50%) scale(0.9);} 
 
-
-
-
 .group-header {width: 360px;
                height: 24px;
                font-weight: 600;
@@ -539,9 +568,7 @@ body {display: flex;
                margin-right: 24px;
                margin-bottom: 16px;}
 
-
-/* input variant */
-
+/* -------------------------------input variant------------------------------- */
 
 textarea {resize: none;} 
 
@@ -561,9 +588,7 @@ textarea {resize: none;}
 
 .form-group:nth-child(5) {height: 16px;
                           margin-bottom: 24px;}
-                          
-                          
-
+ 
 .form-group label {margin-bottom: 4px;
                    text-align: left;
                    font-size: 12px;
@@ -684,7 +709,7 @@ textarea {resize: none;}
 .form-send:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); background-color: var(--second-text-color); color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 
 
-/* button */
+/* -------------------------------button------------------------------- */
 
 
 .button {color:var(--second-text-color); 
@@ -744,9 +769,9 @@ textarea {resize: none;}
 
 .btn-list .btn + .btn {margin-left: 24px;}
 
-/* description */
+/* -------------------------------description -------------------------------*/
 
-.description {padding-top: 120px;
+/* .description {padding-top: 120px;
               padding-bottom: 120px;}
 
 .description-ul {display: flex;}  
@@ -757,20 +782,20 @@ textarea {resize: none;}
 
 .description-items{width: 264px;
                    height: 112px;
-                   margin-bottom: 8px;}
+                   margin-bottom: 8px;} */
 
  /* variant svg */
 
-.description-link {width: 100%;
+/* .description-link {width: 100%;
                    height: 100%;
                    background-color: #F4F4FD;
                    border-radius: 4px;
                    display: flex;
                    align-items: center;
-                   justify-content: center;}
+                   justify-content: center;} */
 
-.description-link:hover,
-.description-link:focus{box-shadow: 5px 3px 3px#87919B; transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}                 
+/* .description-link:hover,
+.description-link:focus{box-shadow: 5px 3px 3px#87919B; transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}                  */
 
 /* variant bgi */
 
@@ -787,7 +812,7 @@ textarea {resize: none;}
 .description-title:nth-child(4)::before {background-image: url(../images/astronaut.svg);}                                           */
 
 
-.description-header {font-weight: 500;
+/* .description-header {font-weight: 500;
                      font-size: 20px;
                      line-height: 1.2;
                      letter-spacing: 0.02em;
@@ -825,7 +850,7 @@ textarea {resize: none;}
               letter-spacing: 0.02em;}    
               
 .work:hover .hidden-text,
-.work:focus .hidden-text {transform: translate(0, 0); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
+.work:focus .hidden-text {transform: translate(0, 0); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);} */
 
 
 
