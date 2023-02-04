@@ -202,6 +202,37 @@ ul {list-style-type: none;
 
 
 
+                    /* Hero block */
+
+                    .header-title {
+                     text-align: center; 
+                    
+                     max-width: 428px;
+                     min-height: 432px;
+                     margin-left: auto;
+                     margin-right: auto;
+                     background-image:linear-gradient(to right,
+                     rgba(46, 47, 66, 0.7),
+                     rgba(46, 47, 66, 0.7)), url(../images/bgi-foto-mobile.jpg);
+                     
+                     background-repeat: no-repeat;
+                     background-position: center; }
+
+                     .main.header {padding-top: 112px;
+                            padding-bottom: 80px;
+                            margin-left: auto;
+                            margin-right: auto;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 36px;
+                            line-height:1.1;
+                            text-align: center;
+                            letter-spacing: 0.02em;
+                            text-transform: capitalize;
+                            color: #FFFFFF;} 
+
+
 /* Tablet header!!! */
 
 
@@ -411,7 +442,7 @@ body {display: flex;
 
 /* block hero */
 
-.header-title {background:var(--primary-text-color);
+/* .header-title {background:var(--primary-text-color);
                text-align: center; 
                padding-top: 192px;
                padding-bottom: 192px;
@@ -432,7 +463,7 @@ body {display: flex;
               line-height: 1.07;    
               letter-spacing: 0.02em;
               color:var(--second-text-color);
-              width: 500px;}    
+              width: 500px;}     */
 
 
 /* backdrop */
