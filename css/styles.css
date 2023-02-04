@@ -432,6 +432,19 @@ ul {list-style-type: none;
 
 
 
+/* ------------------------------- Portfolio - Mobile ------------------------------- */
+
+.btn-list {display:flex;
+              flex-wrap: wrap;
+              gap: 24px;
+      }
+
+      .portfolio-main {padding-top: 48px;
+       padding-bottom: 48px;}
+
+
+
+
 /* -------------------------------Tablet header!!!------------------------------- */
 
 
@@ -930,11 +943,11 @@ textarea {resize: none;}
 
 .button.secondary:focus {box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); color: var(--second-text-color); background-color: var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1); }   
 
-.btn-list {display: flex;
+/* .btn-list {display: flex;
            align-items: center;
            justify-content: center;}
 
-.btn-list .btn + .btn {margin-left: 24px;}
+.btn-list .btn + .btn {margin-left: 24px;} */
 
 /* -------------------------------description -------------------------------*/
 
@@ -1041,8 +1054,8 @@ textarea {resize: none;}
 
 .images-foto {display: flex;}
 
-.portfolio-main {padding-top: 96px;
-                 padding-bottom: 120px;}
+/* .portfolio-main {padding-top: 96px;
+                 padding-bottom: 120px;} */
 
 .images-foto .images-first + .images-first {margin-left: 24px;}
 
