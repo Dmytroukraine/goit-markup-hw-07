@@ -32,12 +32,12 @@ ul {list-style-type: none;
                    margin-right: auto;}
 }             
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
        .conteiner {width: 100%;
                    margin-left: auto;
                    margin-right: auto;} 
 }      
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
        .site, .mail {display: none;}
        .description-link {display: none;}
        .images {display: none;}
@@ -79,7 +79,7 @@ ul {list-style-type: none;
        padding-bottom: 24px;} 
 
 
-@media  screen and (max-width:768px) {
+@media  screen and (max-width:767px) {
 .mobile-menu-open {background-color:transparent;
               border: none;
               padding: 24px 0;}
@@ -94,7 +94,9 @@ ul {list-style-type: none;
               visibility: hidden;
               pointer-events: none;
               transition: opacity 500ms linear, visibility 500ms linear;} 
-}
+
+
+
 
 .mobile-menu.is-open {opacity: 1;
                       visibility: visible;
@@ -424,12 +426,19 @@ ul {list-style-type: none;
           width: 396px;
           height: 40px;
           outline: none;
-          padding-left: 16px;} 
+          padding-left: 16px;
+          margin: auto;} 
 
  .btn-sbs {margin: auto;
            margin-top: 16px;
-           text-align: center;}      
-
+           text-align: center;} 
+           
+@media screen and (max-width: 767px) {
+           .in-mail {width: 100%;
+                     margin-left: auto;
+                     margin-right: auto;
+                     margin-bottom: 16px;}
+}
 
 
 /* ------------------------------- Portfolio - Mobile ------------------------------- */
@@ -497,16 +506,17 @@ ul {list-style-type: none;
             margin: auto;
             margin-top: 48px;} 
              
-
+       }
 /* -------------------------------Tablet header!!!------------------------------- */
 
 
 @media screen and (min-width:768px) {
 
+       .mobile-menu {display: none;}
+       .mobile-menu-open {display: none;}
 .conteiner {width: 768px;} 
 
-body {display: flex;
-      color:var(--primary-text-color);
+body {color:var(--primary-text-color);
       background-color:var(--second-text-color);
       font-family: 'Roboto', sans-serif; 
       font-style: normal;
@@ -522,6 +532,10 @@ body {display: flex;
               0px 1px 1px rgba(46, 47, 66, 0.16),
               0px 1px 6px rgba(46, 47, 66, 0.08);
               filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));}
+
+.conteiner.main-nav {width: 100%;
+                     margin-left: auto;
+                     margin-right: auto;}            
 
 .main-nav {display: flex;
            align-items: center;}
@@ -549,7 +563,8 @@ body {display: flex;
                   text-decoration: none;}
 
 .mail .item {padding-top: 2px;
-             padding-bottom: 2px;}
+             padding-bottom: 2px;
+              margin-left: 110px;}
 
 .active {position: relative;} 
 
@@ -586,12 +601,60 @@ body {display: flex;
 .site .link:hover, .site .link:focus {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  
 
 .mail .address {color:var(--primary-text-color);
-                            text-decoration: none;} 
+                            text-decoration: none;
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 12px;
+                            line-height: 1.3;
+                            
+                            letter-spacing: 0.04em;
+                            
+                            color: #434455;} 
 
 .mail .address:hover  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  
 
 .mail .address:focus  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);} 
+
+/*------------------------------- Hero Tablet------------------------------- */
+
+
+.hero-title {display: block;
+       text-align: center; 
+       max-width: 768px;
+       min-height: 435px;
+       background-image:linear-gradient(to right,
+       rgba(46, 47, 66, 0.7),
+       rgba(46, 47, 66, 0.7)), url(../images/Tablet\ \ hero.jpg);
+       background-repeat: no-repeat;
+       background-position: center; }
+
+.main.header {padding-top: 112px;
+       
+       padding-bottom: 40px;
+      
+    margin-left: auto;
+    margin-right: auto;
+
+      width: 500px;
+       
+      
+       font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 56px;
+       line-height: 1.07;
+       text-align: center;
+       letter-spacing: 0.02em;
+       color: #FFFFFF;} 
+
+
 } 
+
+
+
+
+
 
 
 /* -------------------------------Desktop header------------------------------- */
