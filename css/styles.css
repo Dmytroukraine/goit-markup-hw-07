@@ -697,8 +697,76 @@ gap: 24px;}
   
 /* -------------------------------Our Team - Tablet------------------------------- */
 
+.team {background:var(--other-background-color);
+       padding-bottom: 96px;
+       padding-top: 96px;
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;}
 
+.team-name {display: flex;
+       flex-wrap: wrap;
+}
+          
 
+.team-header {font-weight: 500;
+              font-size: 36px;
+              line-height: 1.1;    
+              letter-spacing: 0.02em;
+              text-transform: capitalize;
+              color: var(--title-text-color);
+              text-align: center;
+              margin-top: 0;
+              margin-bottom: 72px;}
+
+.team-foto {background:var(--second-text-color);
+            box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
+            0px 1px 1px rgba(46, 47, 66, 0.16), 
+            0px 2px 1px rgba(46, 47, 66, 0.08);
+            border-radius: 0px 0px 4px 4px;
+            width: 264px;
+            margin-bottom: 56px;
+       }
+   .team-foto:nth-child(1), .team-foto:nth-child(3) { margin-left: 98px; }   
+   .team-foto:nth-child(2), .team-foto:nth-child(4) {margin-left: 24px;}
+        
+.foto {display: block;
+       max-width: 100%;
+       height: auto;
+       margin-top: 0;}    
+
+.team-header-name {font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 20px;
+       line-height: 1.2;
+              text-align: center;
+       letter-spacing: 0.02em;
+              color: #2E2F42;
+       margin-top: 32px;
+margin-bottom: 8px;}  
+    
+.team-text-name {font-family: 'Roboto';
+       font-style: normal;
+       font-weight: 400;
+       font-size: 16px;
+       line-height: 1.5;
+             text-align: center;
+       letter-spacing: 0.02em;
+             color: #434455;
+       margin-bottom: 8px;}
+
+       .list-icons {display: inline-flex;
+              flex-direction: row;
+              justify-content: center;
+              align-items: center;
+              padding: 4px 0px;
+              gap: 24px;
+              width: 232px;
+              height: 48px;
+              padding-top: 12px;
+              margin-left: 14px;
+       margin-bottom: 32px;}
 } 
 
 
@@ -1333,7 +1401,7 @@ textarea {resize: none;}
 .icons:hover {fill: currentColor;}   */
 
 
-.list-icons {display: inline-flex;
+ .list-icons {display: inline-flex;
               flex-direction: row;
               justify-content: center;
               align-items: center;
@@ -1342,7 +1410,7 @@ textarea {resize: none;}
               width: 232px;
               height: 48px;
               padding-top: 12px;
-              margin-left: 14px;}
+              margin-left: 14px;} 
 /* 
 .full-position {display: flex;
                 flex-direction: column;
