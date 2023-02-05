@@ -450,13 +450,17 @@ ul {list-style-type: none;
 .portfolio-main {padding-top: 48px;
                  padding-bottom: 48px;}
 
-.description-app  {font-weight: 500;
+.description-app  {display: block;
+       width: 100%;
+       font-weight: 500;
                    font-size: 20px;
                    line-height: 1.2;
                    letter-spacing: 0.02em;
                    color:var(--title-text-color);
                    margin-bottom: 8px;
-                   margin-top: 32px;} 
+                   margin-top: 32px;
+                     margin-left: auto;
+              margin-right: auto;} 
 
 .style {letter-spacing: 0.02em;
         color: var(--primary-text-color);}                     
@@ -505,8 +509,14 @@ ul {list-style-type: none;
             height: auto;
             margin: auto;
             margin-top: 48px;} 
+
+.work-images {display: block;
+              width: 396px;
+              height: auto;
+              margin: auto;}
              
-       }
+}
+
 /* -------------------------------Tablet header!!!------------------------------- */
 
 
@@ -616,7 +626,7 @@ body {color:var(--primary-text-color);
 
 .mail .address:focus  {color:var(--accent-color); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);} 
 
-/*------------------------------- Hero Tablet------------------------------- */
+/*------------------------------- Hero - Tablet------------------------------- */
 
 
 .hero-title {width: 100%;
@@ -864,6 +874,82 @@ margin-bottom: 8px;}
               padding-left: 16px;} 
 
               .footer-head {margin-left: 24px;}
+
+/* -------------------------------Portfolio - Tablet------------------------------- */
+
+/* -------------------------------Button - Portfolio - Tablet------------------------------- */
+.btn-list {display: flex;
+       align-items: center;
+       justify-content: center;
+margin-top: 64px;
+margin-left: 76px;
+margin-bottom: 64px;}
+
+.btn-list .btn + .btn {margin-left: 24px;}
+
+/* -------------------------------Description - Portfolio - Tablet------------------------------- */
+
+
+.work-images  {
+       display: flex;
+       flex-wrap: wrap;
+       width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+            margin-top: 72px;
+margin-bottom: 96px;}  
+
+.list {border: 0.5px solid #F4F4FD;
+background:var(--second-text-color);} 
+
+.list:hover, .list:focus {box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}        
+
+
+
+.list.a {margin-bottom: 48px;}
+.list.b {margin-bottom: 48px;}
+
+.list.a:nth-child(2) {margin-left: auto;}
+.list.b:nth-child(4) {margin-left: auto;}
+.list.c:nth-child(6) {margin-left: auto;}
+.list.c:nth-child(8) {margin-left: auto;}
+
+.services {padding-top: 32px;
+   padding-bottom: 32px;
+   padding-left: 16px;}
+
+   .description-app  {font-weight: 500;
+       font-size: 20px;
+       line-height: 1.2;
+       letter-spacing: 0.02em;
+       color:var(--title-text-color);
+       margin-bottom: 8px;}               
+
+.style {letter-spacing: 0.02em;
+color: var(--primary-text-color);}                     
+
+.description-text {color:var(--primary-text-color);
+       letter-spacing: 0.02em;}   
+     
+.overlay {position: relative;
+overflow: hidden;} 
+.work {text-decoration: none;}
+.hidden-text {position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  padding: 40px 32px 164px;
+  transform: translate(0, 100%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  color: var(--other-background-color);
+  background-color: var(--accent-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;}    
+  
+.work:hover .hidden-text,
+.work:focus .hidden-text {transform: translate(0, 0); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 } 
 
 
