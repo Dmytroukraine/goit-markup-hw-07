@@ -1224,7 +1224,8 @@ textarea {resize: none;}
               gap: 24px;
               width: 232px;
               height: 48px;
-              padding-top: 12px;}
+              padding-top: 12px;
+              margin-left: 14px;}
 /* 
 .full-position {display: flex;
                 flex-direction: column;
