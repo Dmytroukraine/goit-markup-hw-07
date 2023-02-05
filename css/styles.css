@@ -619,7 +619,10 @@ body {color:var(--primary-text-color);
 /*------------------------------- Hero Tablet------------------------------- */
 
 
-.hero-title {display: block;
+.hero-title {width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       display: block;
        text-align: center; 
        max-width: 768px;
        min-height: 435px;
