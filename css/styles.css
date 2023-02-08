@@ -60,6 +60,7 @@ ul {list-style-type: none;
        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
        0px 1px 1px rgba(46, 47, 66, 0.16),
        0px 1px 6px rgba(46, 47, 66, 0.08);}
+
 .mobile-menu-open_icon {stroke:var(--title-text-color);}
 
 .conteiner.main-nav {display: inline-flex;
@@ -101,9 +102,6 @@ ul {list-style-type: none;
               visibility: hidden;
               pointer-events: none;
               transition: opacity 500ms linear, visibility 500ms linear;} 
-
-
-
 
 .mobile-menu.is-open {opacity: 1;
                       visibility: visible;
@@ -215,7 +213,6 @@ ul {list-style-type: none;
 .mobile-list-icons {display:inline-flex;
                     margin-left: 40px;
                     gap: 56px;}   
-
 
 
 /*------------------------------- Hero block - Mobile------------------------------- */
