@@ -54,12 +54,12 @@ ul {list-style-type: none;
 
 
 .header-main {position: sticky;
-       top: 0;
-       z-index: 3;
-       background-color: var(--second-text-color);
-       box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
-       0px 1px 1px rgba(46, 47, 66, 0.16),
-       0px 1px 6px rgba(46, 47, 66, 0.08);}
+              top: 0;
+              z-index: 3;
+              background-color: var(--second-text-color);
+              box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 
+              0px 1px 1px rgba(46, 47, 66, 0.16),
+              0px 1px 6px rgba(46, 47, 66, 0.08);}
 
 .mobile-menu-open_icon {stroke:var(--title-text-color);}
 
@@ -224,7 +224,7 @@ ul {list-style-type: none;
              margin-right: auto;
              background-image:linear-gradient(to right,
              rgba(46, 47, 66, 0.7),
-             rgba(46, 47, 66, 0.7)), url(../images/bgi-foto-mobile.jpg);
+             rgba(46, 47, 66, 0.7)), url(../images/bgi-mobile.jpg);
              background-repeat: no-repeat;
              background-position: center; }
 
@@ -521,6 +521,17 @@ ul {list-style-type: none;
              
 }
 
+@media screen and (min-device-pixel-ratio:2) and (max-width:768px),
+screen and (min-resolution: 192dpi) and (max-width:768px),
+screen and (min-resolution: 2dppx) and (max-width:768px)  {
+       .hero-title {background-image:linear-gradient(to right,
+                                   rgba(46, 47, 66, 0.7),
+                                   rgba(46, 47, 66, 0.7)), 
+                                   url(../images/bgi-mobile@2x.jpg);
+                     background-size: 428px 432px;}
+       
+}
+
 /* -------------------------------Tablet header!!!------------------------------- */
 
 
@@ -644,7 +655,7 @@ body {color:var(--primary-text-color);
 @media screen and (max-width:1158px) {
        .hero-title {background-image:linear-gradient(to right,
               rgba(46, 47, 66, 0.7),
-              rgba(46, 47, 66, 0.7)), url(../images/Tablet\ \ hero.jpg);
+              rgba(46, 47, 66, 0.7)), url(../images/bgi-tablet.jpg);
               background-repeat: no-repeat;
              background-position: center;}
        
@@ -948,6 +959,17 @@ body {color:var(--primary-text-color);
 .work:focus .hidden-text {transform: translate(0, 0); transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}
 } 
 
+@media screen and (min-device-pixel-ratio:2) and (min-width:768px),
+screen and (min-resolution: 192dpi) and (min-width:768px),
+screen and (min-resolution: 2dppx) and (min-width:768px)  {
+       .hero-title {background-image:linear-gradient(to right,
+                                   rgba(46, 47, 66, 0.7),
+                                   rgba(46, 47, 66, 0.7)), 
+                                   url(../images/bgi-tablet@2x.jpg);
+                     background-size: 768px 435px;}
+       
+}
+
 
 /* -------------------------------Desktop - Header------------------------------- */
 
@@ -1084,7 +1106,11 @@ body {color:var(--primary-text-color);
                  min-height: 600px;
                  margin-left: auto;
                  margin-right: auto;
-                 background-image: url('../images/headerback.jpg');
+                 background-image:linear-gradient(to right,
+                                   rgba(46, 47, 66, 0.7),
+                                   rgba(46, 47, 66, 0.7)), 
+                                   url(../images/bgi-desktop.jpg);
+                 background-size: 1440px 603px;
                  background-repeat: no-repeat;
                  background-position: center;}
                    
@@ -1754,6 +1780,17 @@ flex-wrap: nowrap;}
                                 border: 1px solid var(--accent-color);
                                 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
                                 transition: all 500ms cubic-bezier(0.4, 0, 0.2, 1);}  }          
+
+@media screen and (min-device-pixel-ratio:2) and (min-width:1158px),
+screen and (min-resolution: 192dpi) and (min-width:1158px),
+screen and (min-resolution: 2dppx) and (min-width:1158px)  {
+       .hero-title {background-image:linear-gradient(to right,
+                                   rgba(46, 47, 66, 0.7),
+                                   rgba(46, 47, 66, 0.7)), 
+                                   url(../images/bgi-desktop@2x.jpg);
+                     background-size: 1440px 603px;}
+       
+}
 
 
 /*------------------------------- backdrop -------------------------------*/
