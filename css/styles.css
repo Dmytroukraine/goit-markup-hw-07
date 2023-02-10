@@ -365,8 +365,6 @@ ul {list-style-type: none;
          padding-top: 96px;
          padding-bottom: 96px;} 
 
-.footer-list {display: block;
-              margin: 0 auto;}
 
 .logo-footer {display: block;
               font-family: 'Raleway';
@@ -378,7 +376,7 @@ ul {list-style-type: none;
               color: var(--title-text-color);
               margin: 0 auto;
               text-align: center;
-              padding-bottom: 16px;}  
+              margin-bottom: 16px;}  
 
 .footer-text {font-family: 'Roboto';
               font-style: normal;
@@ -393,8 +391,8 @@ ul {list-style-type: none;
               color: #E7E9FC;}   
 
 .footer-header {text-align: center;
-                padding-top: 72px;
-                padding-bottom: 16px;
+                margin-top: 72px;
+                margin-bottom: 16px;
                 font-family: 'Roboto';
                 font-style: normal;
                 font-weight: 500;
@@ -407,7 +405,7 @@ ul {list-style-type: none;
               gap:16px;
               justify-content: center;
               align-items: center;
-              padding-bottom: 72px;}              
+              margin-bottom: 72px;}              
               
 .subscribe-title {text-align: center;}
 
@@ -825,6 +823,8 @@ margin-bottom: 32px;}
          padding-top: 100px;
          padding-bottom: 100px;}
 
+         .footer-list {display: flex;}        
+
 .logo-footer {display: block;
               font-family: 'Raleway';
               font-weight: 800;
@@ -853,7 +853,7 @@ margin-bottom: 32px;}
 
 .ftr-social {display:inline-flex;}    
 
-.footer-list, .footer-link {display:flex;
+.footer-link {display:flex;
                             flex-wrap: wrap;}
 
 .subscribe { display:block;
@@ -1677,6 +1677,7 @@ flex-wrap: nowrap;}
  .footer {background: var(--title-text-color);
          padding-top: 100px;
          padding-bottom: 100px;}
+.footer-owner {display: flex;}         
 
 .logo-footer {display: block;
               font-family: 'Raleway';
@@ -1702,7 +1703,7 @@ flex-wrap: nowrap;}
                 padding-bottom: 22px ;} 
 
 .ftr-social {display:inline-flex;}          
-.footer-list, .footer-link {display:inline-flex;
+.footer-link {display:inline-flex;
 flex-wrap: nowrap;}
 
 .ftr-subs {margin-left: 0;
