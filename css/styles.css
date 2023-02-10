@@ -701,7 +701,7 @@ body {color:var(--primary-text-color);
                    letter-spacing: 0.02em;
                    color: #434455;}
 
-.description-title:nth-child(1), .description-title:nth-child(2) { margin-bottom: 72px;} 
+.description-title:nth-child(1), .description-title:nth-child(2) {margin-bottom: 72px;} 
 
 /*------------------------------- Images - Tablet------------------------------- */
 
@@ -1400,6 +1400,8 @@ margin-bottom: 0;}
 
 
 .description-title {width: 264px;}
+
+.description-title:nth-child(1), .description-title:nth-child(2) {margin-bottom: 0;}
 
 .description-items{width: 264px;
                    height: 112px;
