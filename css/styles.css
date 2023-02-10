@@ -33,7 +33,7 @@ ul {list-style-type: none;
 }             
 
 @media screen and (max-width:768px) {
-       .conteiner {width: 100%;
+       .conteiner {width: 428px;
                    margin-left: auto;
                    margin-right: auto;} 
 }      
@@ -213,10 +213,11 @@ ul {list-style-type: none;
              rgba(46, 47, 66, 0.7),
              rgba(46, 47, 66, 0.7)), url(../images/bgi-mobile.jpg);
              background-repeat: no-repeat;
-             background-position: center; }
+             background-position: center;
+             padding-top: 112px;
+             padding-bottom: 112px}
 
-.main.header {padding-top: 112px;
-              padding-bottom: 80px;
+.main.header {margin-bottom: 40px;
               margin-left: auto;
               margin-right: auto;
               font-family: 'Roboto';
@@ -580,8 +581,7 @@ body {color:var(--primary-text-color);
                   text-decoration: none;}
 
 .mail .item {padding-top: 2px;
-             padding-bottom: 2px;
-              margin-left: 110px;}
+             padding-bottom: 2px;}
 
 .active {position: relative;} 
 
@@ -1021,14 +1021,14 @@ body {color:var(--primary-text-color);
   
 .main-nav {display: flex;}
   
-.nav {display: flex;
-      margin-right: 275px;}
+.nav {display: flex;}
   
 .site {display: flex;}
   
 .site .item + .item {margin-left: 40px;}
   
-.mail {display: flex;}
+.mail {display: flex;
+       padding-right: 156px;}
   
 .item {display: flex;}
     
