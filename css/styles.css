@@ -1457,7 +1457,8 @@ margin-bottom: 0;}
                    letter-spacing: 0.02em;}   
                  
 .overlay {position: relative;
-          overflow: hidden;} 
+          overflow: hidden;
+          height: 300px;} 
 
 .hidden-text {position: absolute;
               left: 0;
