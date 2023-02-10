@@ -1550,14 +1550,15 @@ flex-wrap: nowrap;}
             0px 1px 1px rgba(46, 47, 66, 0.16), 
             0px 2px 1px rgba(46, 47, 66, 0.08);
             border-radius: 0px 0px 4px 4px;
-            width: 264px;}
+            width: 264px;
+            margin-bottom: 0;}
             .team-foto:nth-child(1) {margin-left: 0;}            
         
 .foto {display: block;
        max-width: 100%;
        height: auto;
        margin-top: 0;
-margin-bottom: 0;}    
+       margin-bottom: 0;}    
 
 .team-header-name {font-weight: 500;
                    font-size: 20px;  
@@ -1704,7 +1705,8 @@ margin-bottom: 0;}
 .footer-list, .footer-link {display:inline-flex;
 flex-wrap: nowrap;}
 
-.ftr-subs {margin-left: 0;}
+.ftr-subs {margin-left: 0;
+           margin-bottom: 0;}
 
 .footer-link {gap: 16px;}
               
